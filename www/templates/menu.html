@@ -13,22 +13,19 @@
   </ion-side-menu-content>
 
   <ion-side-menu side="left">
-    <ion-header-bar class="bar-stable">
-      <h1 class="title">Left</h1>
+    <ion-header-bar class="DT-menu DT-header">
+      <img ng-src="{{ bannerImage }}">
     </ion-header-bar>
-    <ion-content>
+    <ion-content class="DT-menu-content">
       <ion-list>
-        <ion-item menu-close ng-click="login()">
-          Login
+        <ion-item menu-close href="#/app/setting">
+          <img src="img/icon_settings.png" class="DT-menu-icon" />Setting
         </ion-item>
-        <ion-item menu-close href="#/app/search">
-          Search
+        <ion-item menu-close href="#/app/helper">
+          <img src="img/icon_help_circle.png" class="DT-menu-icon" />Helper
         </ion-item>
-        <ion-item menu-close href="#/app/browse">
-          Browse
-        </ion-item>
-        <ion-item menu-close href="#/app/playlists">
-          Playlists
+        <ion-item menu-close href="#/app/about">
+          <img src="img/icon_emoticon_cool.png" class="DT-menu-icon" />About
         </ion-item>
       </ion-list>
     </ion-content>
