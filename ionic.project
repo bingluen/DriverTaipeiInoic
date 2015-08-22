@@ -3,6 +3,7 @@
   "app_id": "9350b43b",
   "watchPatterns": [
     "www/js/*",
+    "www/templates/*",
     "!www/css/**/*"
   ]
 }
